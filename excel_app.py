@@ -16,10 +16,6 @@ import tensorflow
 import tensorflow.keras.models
 
 pwd= os.getcwd()
-load_dotenv('api.env') 
-os.environ["OPENAI_API_KEY"]= os.getenv("OPENAI_API_KEY")
-groq_api_key= os.getenv("GROQ_API_KEY")     
-os.environ['PANDASAI_API_KEY'] = "$2a$10$bkTOL4aI1gpOGYtLOkhJ.e9CWd9zL7ckGXiFkXnU.wJtsV9NzkyUa" 
 
 st.set_page_config(page_title="Excel ChatBot") 
 st.title("Excel Interpreter") 
